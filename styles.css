@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: sans-serif;  
 }
 
 .A{
@@ -9,7 +9,6 @@
     width: 100%;
     height: 100vh;
     background: rgba(221, 158, 242, 0.678);
-    position: relative;
 }
 
 nav{
@@ -22,7 +21,7 @@ nav{
 }
 
 .B{
-    width: 100px;
+    width: 150px;
     cursor: pointer;
 }
 
@@ -36,7 +35,8 @@ nav ul li a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
-    
+    margin: 25px;
+    justify-items: center;
 }
 
 nav ul li a:hover{
@@ -46,7 +46,7 @@ nav ul li a:hover{
 
 .detail{
     margin-left: 8%;
-    margin-top: 15%;
+    margin-top: 6%;
 }
 
 .detail h1{
@@ -83,15 +83,9 @@ span{
     transition: bottom 1s, top 1s;
 }
 
-.images:hover .shape{
-    bottom: 40px;
-    background-color:  #eff4fd ;
-}
-
 .images:hover .C{
-    left: 45%;
-    bottom: 5%;
     width: 0px;
+    height: min-content;
 }
 
 .social{
@@ -108,3 +102,74 @@ span{
 .social a:hover{
     color: orange;
 }
+
+.formm{
+    height: 100vh;
+    background-color: #555;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.Y{
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #BAE8E8;
+    
+}
+.inform{
+    margin: auto; 
+    width: 60%;
+    height: 60%;
+    border: 5px black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.inform label{
+    font-variant: small-caps;
+}
+.inform input{
+    height: 30px;
+    width: 350px;
+    text-align: center;
+    font-weight: bold;
+}
+.inform textarea{
+    text-align: center;
+    font-size:medium;
+}
+
+.Z label{
+    font-size: small;
+}
+
+.Z input{
+    text-align: center;
+    width: 100px;
+}
+
+
+.submit{
+    font-weight: bold;
+}
+
+ .circ{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: lightblue;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;  
+} 
+
+.about{
+    text-align: center;
+    align-items: center;
+    background-color: #BAE8E8;
+}
+
+ .para{
+    margin-top: auto;
+    height: auto;
+} 
